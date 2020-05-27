@@ -4,7 +4,7 @@
 * Wikipedia: https://wiki.rage.mp/index.php?title=Vehicle_Bones
 */
 
-export enum vehicleBones {
+enum vehicleBones {
     CHASSIS = 'chassis',
     CHASSIS_LOWLOD = 'chassis_lowlod',
     CHASSIS_DUMMY = 'chassis_dummy',
@@ -454,4 +454,5 @@ export enum vehicleBones {
     BOBBLE_BASE = 'bobble_base',
     BOBBLE_HAND = 'bobble_hand',
     CHASSIS_CONTROL = 'chassis_Control',
-}
+};
+export default vehicleBones;

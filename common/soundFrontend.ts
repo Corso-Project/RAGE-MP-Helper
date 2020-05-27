@@ -1790,3 +1790,4 @@ const Sounds = {
         SET_NAME: 'DLC_HEIST_PLANNING_BOARD_SOUNDS'
     }
 };
+export default Sounds;

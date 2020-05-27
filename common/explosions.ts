@@ -4,7 +4,7 @@
 * Wikipedia: https://wiki.rage.mp/index.php?title=Explosions
 */
 
-export enum Explosions {
+enum Explosions {
     EXP_TAG_GRENADE = 0,
     EXP_TAG_GRENADELAUNCHER = 1,
     EXP_TAG_STICKYBOMB = 2,
@@ -78,4 +78,5 @@ export enum Explosions {
     EXP_TAG_RAYGUN = 70,
     EXP_TAG_BURIEDMINE = 71,
     EXP_TAG_SCRIPT_MISSILE = 72
-}
+};
+export default Explosions;

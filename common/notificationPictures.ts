@@ -7,7 +7,7 @@
  *
  * Wikipedia: https://wiki.rage.mp/index.php?title=Notification_Pictures
  */
-export enum notificationPictures {
+enum notificationPictures {
     /**
      * Works without requesting: **Yes**
      *
@@ -2744,4 +2744,5 @@ export enum notificationPictures {
      * ![WEB_YUNGMARLON](https://wiki.rage.mp/images/5/5a/Web_yungmarlon.jpg),
      */
     WEB_YUNGMARLON = 'WEB_YUNGMARLON',
-}
+};
+export default notificationPictures;

@@ -14,4 +14,5 @@ enum vehicleFlags {
     BURNOUT = 128,
     EXITINGFVEHICLE = 256,
     PLAYERDEAD = 512
-}
+};
+export default vehicleFlags;

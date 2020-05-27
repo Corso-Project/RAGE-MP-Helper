@@ -3,7 +3,7 @@
 /**
 * Wikipedia: https://wiki.rage.mp/index.php?title=HUD_Components
 */
-export enum HudComponent {
+enum HudComponent {
     HUD = 0,
     WANTED_STARS = 1,
     WEAPON_ICON = 2,
@@ -26,4 +26,5 @@ export enum HudComponent {
     WEAPON_WHEEL = 19,
     WEAPON_WHEEL_STATS = 20,
     MAX_SCRIPTED_HUD_COMPONENTS = 141
-}
+};
+export default HudComponent;

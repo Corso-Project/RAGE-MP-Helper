@@ -147,4 +147,5 @@ export enum Pickups {
     PICKUP_WEAPON_SWITCHBLADE = 0xDDE4181A,
     PICKUP_WEAPON_VINTAGEPISTOL = 0xEBF89D5F,
     PICKUP_WEAPON_WRENCH = 0xE5121369,
-}
+};
+export default Pickups;

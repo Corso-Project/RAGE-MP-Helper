@@ -4,7 +4,7 @@
  * Wikipedia: https://wiki.rage.mp/index.php?title=Controls
  */
 
-export enum Controls {
+enum Controls {
     /**
      * V (Back on Xbox)
      */
@@ -1380,4 +1380,5 @@ export enum Controls {
      * X
      */
     INPUT_VEH_TRANSFORM = 357,
-}
+};
+export default Controls;

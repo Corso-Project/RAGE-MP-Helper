@@ -3,7 +3,7 @@
 /**
 * Wikipedia: https://wiki.rage.mp/index.php?title=Weather
 */
-export enum Weather {
+enum Weather {
     /**
      * ![EXTRASUNNY](https://wiki.rage.mp/images/8/8b/280px-weather_0_day.png)
     */
@@ -65,3 +65,4 @@ export enum Weather {
     */
     HALLOWEEN = 14
 };
+export default Weather;

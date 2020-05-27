@@ -3,7 +3,7 @@
 /**
  * Wikipedia: https://wiki.rage.mp/index.php?title=Vehicles
  */
-export const Vehicles = {
+const vehicleModels = {
     BOATS: {
         /**
          * ![Dinghy](https://wiki.rage.mp/images/thumb/3/39/Dinghy.png/164px-Dinghy.png)
@@ -5493,3 +5493,4 @@ export const Vehicles = {
         }
     }
 };
+export default vehicleModels;

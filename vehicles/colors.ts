@@ -968,3 +968,4 @@ const vehicleColors = {
         RGB: [127, 106, 72]
     }
 };
+export default vehicleColors;

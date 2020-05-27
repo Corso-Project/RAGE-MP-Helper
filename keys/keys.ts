@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 
+import { Key } from "readline";
+
 /**
  * Docs Microsoft: https://docs.microsoft.com/ru-ru/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
  */
@@ -390,3 +392,4 @@ const Keys = {
     /** Clear key */
     VK_OEM_CLEAR: 0xFE
 };
+export default Keys;

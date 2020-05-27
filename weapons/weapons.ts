@@ -1,7 +1,7 @@
 /**
 * Wikipedia: https://wiki.rage.mp/index.php?title=Weapons
 */
-export const Weapons = {
+const Weapons = {
     /** Melee */
     MELEE: {
         /**
@@ -879,3 +879,4 @@ export const Weapons = {
         }
     }
 };
+export default Weapons;

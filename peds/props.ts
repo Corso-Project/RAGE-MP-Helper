@@ -3,7 +3,7 @@
 /**
 * Wikipedia: https://wiki.rage.mp/index.php?title=Clothes
 */
-export enum Props {
+enum Props {
     /**
      * Male: https://wiki.rage.mp/index.php?title=Male_Hats
      *
@@ -34,4 +34,5 @@ export enum Props {
      * Female: https://wiki.rage.mp/index.php?title=Female_Bracelets
     */
     BRACELETS = 7
-}
+};
+export default Props;

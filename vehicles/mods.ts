@@ -3,7 +3,7 @@
 /**
  * https://wiki.rage.mp/index.php?title=Vehicle_Mods
  */
-export enum ModType {
+enum vehicleMods {
     SPOILERS = 0,
     FRONT_BUMPER = 1,
     REAR_BUMPER = 2,
@@ -44,4 +44,5 @@ export enum ModType {
     COLOUR_1 = 66,
     /** 0 to 74 */
     COLOUR_2 = 67,
-}
+};
+export default vehicleMods;

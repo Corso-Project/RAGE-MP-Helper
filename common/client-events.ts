@@ -49,4 +49,5 @@ export enum Events {
     // Waypoint
     PLAYER_CREATE_WAYPOINT = 'playerCreateWaypoint',
     PLAYER_REACH_WAYPOINT = 'playerReachWaypoint'
-}
+};
+export default Events;

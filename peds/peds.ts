@@ -4,7 +4,7 @@
  * Wikipedia: https://wiki.rage.mp/index.php?title=Peds
 */
 
-const peds = {
+const Peds = {
     /**
      * ![ig_abigail](https://wiki.rage.mp/images/thumb/8/88/Abigail.png/58px-Abigail.png)
      */
@@ -5179,3 +5179,4 @@ const peds = {
         HASH: 0x94C2A03F
     }
 };
+export default Peds;

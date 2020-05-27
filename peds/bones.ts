@@ -3,7 +3,7 @@
 /**
 * Wikipedia: https://wiki.rage.mp/index.php?title=Bones
 */
-export enum Bones {
+enum Bones {
     SKEL_ROOT = 0,
     FB_R_BROW_OUT_000 = 1356,
     SKEL_L_TOE0 = 2108,
@@ -102,4 +102,5 @@ export enum Bones {
     SKEL_L_CLAVICLE = 64729,
     FACIAL_FACIALROOT = 65068,
     IK_L_FOOT = 65245
-}
+};
+export default Bones;

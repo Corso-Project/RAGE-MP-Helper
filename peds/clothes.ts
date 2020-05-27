@@ -3,7 +3,7 @@
 /**
 * Wikipedia: https://wiki.rage.mp/index.php?title=Clothes
 */
-export enum Clothes {
+enum Clothes {
     /** https://wiki.rage.mp/index.php?title=Masks */
     MASK = 1,
     /**
@@ -64,4 +64,5 @@ export enum Clothes {
      * Female: https://wiki.rage.mp/index.php?title=Female_Tops
     */
     TOPS = 11
-}
+};
+export default Clothes;

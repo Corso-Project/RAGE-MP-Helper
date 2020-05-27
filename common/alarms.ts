@@ -19,3 +19,4 @@ enum Alarms {
     PRISON_ALARMS = 'PRISON_ALARMS',
     PROLOGUE_VAULT_ALARMS = 'PROLOGUE_VAULT_ALARMS'
 };
+export default Alarms;

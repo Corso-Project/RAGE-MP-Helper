@@ -4,7 +4,7 @@
 * Wikipedia: https://wiki.rage.mp/index.php?title=Vehicle_Classes
 */
 
-export enum vehicleClasses {
+enum vehicleClasses {
     COMPACTS,
     SEDANS,
     SUVS,
@@ -28,3 +28,4 @@ export enum vehicleClasses {
     COMMERCIAl,
     TRAINS
 };
+export default vehicleClasses;

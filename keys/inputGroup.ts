@@ -4,7 +4,7 @@
  * Wikipedia: https://wiki.rage.mp/index.php?title=InputGroup
  */
 
-export enum inputGroup {
+enum inputGroup {
     INPUTGROUP_MOVE = 0,
     INPUTGROUP_LOOK = 1,
     INPUTGROUP_WHEEL = 2,
@@ -39,4 +39,5 @@ export enum inputGroup {
     INPUTGROUP_VEH_HYDRAULICS_CONTROL = 31,
     MAX_INPUTGROUPS = 32,
     INPUTGROUP_INVALID = 33
-}
+};
+export default inputGroup;
