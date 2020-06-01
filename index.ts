@@ -27,6 +27,16 @@ import vehicleModels from './vehicles/models';
 import vehicleMods from './vehicles/mods';
 import vehicleFlags from './vehicles/flags';
 
+// Common
+import Alarms from './common/alarms';
+import Markers from './common/markers';
+import soundFrontend from './common/soundFrontend';
+// Keys
+import Keys from './keys/keys';
+// Peds
+import Props from './peds/props';
+
+
 export {
     // Reference
     serverEvents,
@@ -54,4 +64,13 @@ export {
     vehicleModels,
     vehicleMods,
     vehicleFlags
+	
+	// Common
+	Alarms,
+	Markers,
+	soundFrontend,
+	// Keys
+	Keys,
+	// Peds
+	Props
 };
