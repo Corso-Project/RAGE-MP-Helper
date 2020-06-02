@@ -63,7 +63,7 @@ export {
     vehicleColors,
     vehicleModels,
     vehicleMods,
-    vehicleFlags
+    vehicleFlags,
 	
 	// Common
 	Alarms,
